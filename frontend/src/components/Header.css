@@ -1,0 +1,51 @@
+.header-nav {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-link-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #007bff;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link-button:hover {
+    text-decoration: underline;
+}
+
+.welcome-message {
+    margin-left: auto;
+    font-style: italic;
+    color: #555;
+}
